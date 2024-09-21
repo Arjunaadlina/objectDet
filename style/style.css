@@ -1,0 +1,63 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.1rem;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#webcam, #canvas {
+    width: 700px;
+    height: 480px;
+    border-radius: 12px;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer {
+    margin-top: 0px;
+    color: #95a5a6;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
+
+/* Style for the bounding boxes and text */
+canvas {
+    border: none;
+}
